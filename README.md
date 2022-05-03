@@ -9,15 +9,15 @@ PostgreSQL with environment setup. PostgreSQL image deployed as docker container
 ## How to install ##
 
 Run 
-     ```
+   ```
           git clone https://github.com/postgresenv.git
-     ```
-     ```
+   ```
+   ```
           cd postgresenv && docker-compose up -d
-     ```
-     ```
+   ```
+   ```
           docker exec -it <name of container> /bin/sh 
-     ```
+   ```
 
 You should be inside the container now, so run 
    ``` 
