@@ -15,15 +15,12 @@ Run
           cd postgresenv && docker-compose up -d
 
           docker exec -it <name of container> /bin/sh 
-     
      ```
 
 You should be inside the container now, so run 
-   ```
-      
+   ``` 
       psql --username <database user>
-   
-   ````
+   ```
 
 run 
 `\ls`
