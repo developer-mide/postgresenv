@@ -12,7 +12,9 @@ Run
      ```
           git clone https://github.com/postgresenv.git
      ```
+     ```
           cd postgresenv && docker-compose up -d
+     ```
      ```
           docker exec -it <name of container> /bin/sh 
      ```
